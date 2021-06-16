@@ -13,7 +13,7 @@ import androidx.navigation.fragment.findNavController
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class ExerciseFragment : Fragment() {
 
     var currentState = mutableMapOf<Int, Int>()
     var countButtons = listOf<Int>(R.id.countButton1, R.id.countButton2, R.id.countButton3, R.id.countButton4, R.id.countButton5)
